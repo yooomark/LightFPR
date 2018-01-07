@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC112804200128180013A3F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC112803200128180013A3F1 /* AppDelegate.m */; };
+		EC112807200128180013A3F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC112806200128180013A3F1 /* ViewController.m */; };
+		EC11280A200128180013A3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC112808200128180013A3F1 /* Main.storyboard */; };
+		EC11280C200128180013A3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC11280B200128180013A3F1 /* Assets.xcassets */; };
+		EC11280F200128180013A3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC11280D200128180013A3F1 /* LaunchScreen.storyboard */; };
+		EC112812200128180013A3F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC112811200128180013A3F1 /* main.m */; };
+		EC11281C200128180013A3F1 /* ReactiveOCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC11281B200128180013A3F1 /* ReactiveOCDemoTests.m */; };
+		EC112827200128180013A3F1 /* ReactiveOCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC112826200128180013A3F1 /* ReactiveOCDemoUITests.m */; };
+		EC1128362001283F0013A3F1 /* Signal.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1128352001283F0013A3F1 /* Signal.m */; };
+		EC1128392002756F0013A3F1 /* ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1128382002756F0013A3F1 /* ViewModel.m */; };
+		EC11283B20027F090013A3F1 /* extobjc in Resources */ = {isa = PBXBuildFile; fileRef = EC11283A20027F090013A3F1 /* extobjc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC112818200128180013A3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1127F7200128170013A3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1127FE200128170013A3F1;
+			remoteInfo = ReactiveOCDemo;
+		};
+		EC112823200128180013A3F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1127F7200128170013A3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1127FE200128170013A3F1;
+			remoteInfo = ReactiveOCDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1127FF200128180013A3F1 /* ReactiveOCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveOCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC112802200128180013A3F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC112803200128180013A3F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC112805200128180013A3F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC112806200128180013A3F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC112809200128180013A3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC11280B200128180013A3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC11280E200128180013A3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC112810200128180013A3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC112811200128180013A3F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC112817200128180013A3F1 /* ReactiveOCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveOCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC11281B200128180013A3F1 /* ReactiveOCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveOCDemoTests.m; sourceTree = "<group>"; };
+		EC11281D200128180013A3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC112822200128180013A3F1 /* ReactiveOCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveOCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC112826200128180013A3F1 /* ReactiveOCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveOCDemoUITests.m; sourceTree = "<group>"; };
+		EC112828200128180013A3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1128342001283F0013A3F1 /* Signal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Signal.h; sourceTree = "<group>"; };
+		EC1128352001283F0013A3F1 /* Signal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Signal.m; sourceTree = "<group>"; };
+		EC1128372002756F0013A3F1 /* ViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModel.h; sourceTree = "<group>"; };
+		EC1128382002756F0013A3F1 /* ViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewModel.m; sourceTree = "<group>"; };
+		EC11283A20027F090013A3F1 /* extobjc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = extobjc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1127FC200128170013A3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC112814200128180013A3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC11281F200128180013A3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1127F6200128170013A3F1 = {
+			isa = PBXGroup;
+			children = (
+				EC112801200128180013A3F1 /* ReactiveOCDemo */,
+				EC11281A200128180013A3F1 /* ReactiveOCDemoTests */,
+				EC112825200128180013A3F1 /* ReactiveOCDemoUITests */,
+				EC112800200128180013A3F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC112800200128180013A3F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1127FF200128180013A3F1 /* ReactiveOCDemo.app */,
+				EC112817200128180013A3F1 /* ReactiveOCDemoTests.xctest */,
+				EC112822200128180013A3F1 /* ReactiveOCDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC112801200128180013A3F1 /* ReactiveOCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC11283A20027F090013A3F1 /* extobjc */,
+				EC112802200128180013A3F1 /* AppDelegate.h */,
+				EC112803200128180013A3F1 /* AppDelegate.m */,
+				EC112805200128180013A3F1 /* ViewController.h */,
+				EC112806200128180013A3F1 /* ViewController.m */,
+				EC112808200128180013A3F1 /* Main.storyboard */,
+				EC11280B200128180013A3F1 /* Assets.xcassets */,
+				EC11280D200128180013A3F1 /* LaunchScreen.storyboard */,
+				EC112810200128180013A3F1 /* Info.plist */,
+				EC112811200128180013A3F1 /* main.m */,
+				EC1128342001283F0013A3F1 /* Signal.h */,
+				EC1128352001283F0013A3F1 /* Signal.m */,
+				EC1128372002756F0013A3F1 /* ViewModel.h */,
+				EC1128382002756F0013A3F1 /* ViewModel.m */,
+			);
+			path = ReactiveOCDemo;
+			sourceTree = "<group>";
+		};
+		EC11281A200128180013A3F1 /* ReactiveOCDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC11281B200128180013A3F1 /* ReactiveOCDemoTests.m */,
+				EC11281D200128180013A3F1 /* Info.plist */,
+			);
+			path = ReactiveOCDemoTests;
+			sourceTree = "<group>";
+		};
+		EC112825200128180013A3F1 /* ReactiveOCDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC112826200128180013A3F1 /* ReactiveOCDemoUITests.m */,
+				EC112828200128180013A3F1 /* Info.plist */,
+			);
+			path = ReactiveOCDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1127FE200128170013A3F1 /* ReactiveOCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC11282B200128180013A3F1 /* Build configuration list for PBXNativeTarget "ReactiveOCDemo" */;
+			buildPhases = (
+				EC1127FB200128170013A3F1 /* Sources */,
+				EC1127FC200128170013A3F1 /* Frameworks */,
+				EC1127FD200128170013A3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveOCDemo;
+			productName = ReactiveOCDemo;
+			productReference = EC1127FF200128180013A3F1 /* ReactiveOCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC112816200128180013A3F1 /* ReactiveOCDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC11282E200128180013A3F1 /* Build configuration list for PBXNativeTarget "ReactiveOCDemoTests" */;
+			buildPhases = (
+				EC112813200128180013A3F1 /* Sources */,
+				EC112814200128180013A3F1 /* Frameworks */,
+				EC112815200128180013A3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC112819200128180013A3F1 /* PBXTargetDependency */,
+			);
+			name = ReactiveOCDemoTests;
+			productName = ReactiveOCDemoTests;
+			productReference = EC112817200128180013A3F1 /* ReactiveOCDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC112821200128180013A3F1 /* ReactiveOCDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC112831200128180013A3F1 /* Build configuration list for PBXNativeTarget "ReactiveOCDemoUITests" */;
+			buildPhases = (
+				EC11281E200128180013A3F1 /* Sources */,
+				EC11281F200128180013A3F1 /* Frameworks */,
+				EC112820200128180013A3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC112824200128180013A3F1 /* PBXTargetDependency */,
+			);
+			name = ReactiveOCDemoUITests;
+			productName = ReactiveOCDemoUITests;
+			productReference = EC112822200128180013A3F1 /* ReactiveOCDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1127F7200128170013A3F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yomark;
+				TargetAttributes = {
+					EC1127FE200128170013A3F1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EC112816200128180013A3F1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC1127FE200128170013A3F1;
+					};
+					EC112821200128180013A3F1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC1127FE200128170013A3F1;
+					};
+				};
+			};
+			buildConfigurationList = EC1127FA200128170013A3F1 /* Build configuration list for PBXProject "ReactiveOCDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1127F6200128170013A3F1;
+			productRefGroup = EC112800200128180013A3F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1127FE200128170013A3F1 /* ReactiveOCDemo */,
+				EC112816200128180013A3F1 /* ReactiveOCDemoTests */,
+				EC112821200128180013A3F1 /* ReactiveOCDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1127FD200128170013A3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC11280F200128180013A3F1 /* LaunchScreen.storyboard in Resources */,
+				EC11280C200128180013A3F1 /* Assets.xcassets in Resources */,
+				EC11283B20027F090013A3F1 /* extobjc in Resources */,
+				EC11280A200128180013A3F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC112815200128180013A3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC112820200128180013A3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1127FB200128170013A3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC112807200128180013A3F1 /* ViewController.m in Sources */,
+				EC1128362001283F0013A3F1 /* Signal.m in Sources */,
+				EC1128392002756F0013A3F1 /* ViewModel.m in Sources */,
+				EC112812200128180013A3F1 /* main.m in Sources */,
+				EC112804200128180013A3F1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC112813200128180013A3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC11281C200128180013A3F1 /* ReactiveOCDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC11281E200128180013A3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC112827200128180013A3F1 /* ReactiveOCDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC112819200128180013A3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1127FE200128170013A3F1 /* ReactiveOCDemo */;
+			targetProxy = EC112818200128180013A3F1 /* PBXContainerItemProxy */;
+		};
+		EC112824200128180013A3F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1127FE200128170013A3F1 /* ReactiveOCDemo */;
+			targetProxy = EC112823200128180013A3F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC112808200128180013A3F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC112809200128180013A3F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC11280D200128180013A3F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC11280E200128180013A3F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC112829200128180013A3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC11282A200128180013A3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC11282C200128180013A3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC568HWAR6;
+				INFOPLIST_FILE = ReactiveOCDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yomark.ReactiveOCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC11282D200128180013A3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC568HWAR6;
+				INFOPLIST_FILE = ReactiveOCDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yomark.ReactiveOCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC11282F200128180013A3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC568HWAR6;
+				INFOPLIST_FILE = ReactiveOCDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yomark.ReactiveOCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveOCDemo.app/ReactiveOCDemo";
+			};
+			name = Debug;
+		};
+		EC112830200128180013A3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC568HWAR6;
+				INFOPLIST_FILE = ReactiveOCDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yomark.ReactiveOCDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveOCDemo.app/ReactiveOCDemo";
+			};
+			name = Release;
+		};
+		EC112832200128180013A3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC568HWAR6;
+				INFOPLIST_FILE = ReactiveOCDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yomark.ReactiveOCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReactiveOCDemo;
+			};
+			name = Debug;
+		};
+		EC112833200128180013A3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZC568HWAR6;
+				INFOPLIST_FILE = ReactiveOCDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yomark.ReactiveOCDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReactiveOCDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1127FA200128170013A3F1 /* Build configuration list for PBXProject "ReactiveOCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC112829200128180013A3F1 /* Debug */,
+				EC11282A200128180013A3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC11282B200128180013A3F1 /* Build configuration list for PBXNativeTarget "ReactiveOCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC11282C200128180013A3F1 /* Debug */,
+				EC11282D200128180013A3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC11282E200128180013A3F1 /* Build configuration list for PBXNativeTarget "ReactiveOCDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC11282F200128180013A3F1 /* Debug */,
+				EC112830200128180013A3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC112831200128180013A3F1 /* Build configuration list for PBXNativeTarget "ReactiveOCDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC112832200128180013A3F1 /* Debug */,
+				EC112833200128180013A3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1127F7200128170013A3F1 /* Project object */;
+}
